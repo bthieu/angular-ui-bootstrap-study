@@ -1,5 +1,6 @@
 angular.module('ui.bootstrap.demo', [
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'ngAnimate'
 ])
 .controller('MainCtrl', MainCtrl);
 

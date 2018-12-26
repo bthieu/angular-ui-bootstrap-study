@@ -64,8 +64,7 @@ function uibCollapseDirective($animate, $q, $parse, $injector) {
                 css: {
                   overflow: 'hidden'
                 },
-                to: getScrollFromElement(element[0]),
-                duration: 10
+                to: getScrollFromElement(element[0])
               }).start()['finally'](expandDone);
             } else {
               $animate.addClass(element, 'in', {
